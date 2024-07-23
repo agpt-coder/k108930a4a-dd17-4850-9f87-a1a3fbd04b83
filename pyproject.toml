@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "k1"
+version = "0.1.0"
+description = "The user inquiries about 'k1a' initiated discussions to clarify its meaning, given its ambiguous nature without a specific context. Through iterative questioning, it was determined that 'k1a' does not directly relate to widely recognized technology, methodology, or project within the provided technical stack of Python, FastAPI, PostgreSQL, and Prisma. It's concluded that 'k1a' might be a term, abbreviation, or identifier specific to the user's project or a lesser-known aspect of the Python ecosystem or related to FastAPI, PostgreSQL, or Prisma technologies. Further clarification from the user revealed that 'k1a' is likely internal or niche, with no direct association to the technologies specified."
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
